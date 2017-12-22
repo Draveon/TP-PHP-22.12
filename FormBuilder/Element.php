@@ -7,16 +7,16 @@ namespace FormBuilder;
  * @package FormBuilder
  */
 abstract class Element implements IElement{
-	/** @var string The label attribute of an element */ 
+	/** @var string The label attribute of an element */
 	private $label;
-	/** @var string The name attribute of an element */ 
+	/** @var string The name attribute of an element */
 	private $name;
 	/** @var Form The form it belongs to */
 	private $form;
 
 	/**
 	 * Initialisation of all the attributes
-	 * @param string $label 
+	 * @param string $label
 	 * @param string $name
 	 * @return void
 	 */
@@ -69,9 +69,10 @@ abstract class Element implements IElement{
 
 	/**
 	 * Set the form the element is attached to
-	 * @param Form $form 
+	 * @param Form $form
 	 */
 	public function setForm(Form $form){
 		$this->form = $form;
 	}
 }
+?>

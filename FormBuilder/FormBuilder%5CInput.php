@@ -6,7 +6,7 @@ namespace FormBuilder;
  */
 class Input extends Textarea{
 	/** @var string Type of the input */
-	private $type; 
+	private $type;
 
 	/**
 	 * Initialisation of all the attributes
@@ -39,3 +39,4 @@ class Input extends Textarea{
 	}
 
 }
+?>

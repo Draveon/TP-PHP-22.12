@@ -40,3 +40,4 @@ class Textarea extends Element{
 	}
 
 }
+?>

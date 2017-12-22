@@ -60,5 +60,6 @@ class Select extends Element{
 		$index = array_search($option, $this->options);
 		array_splice($this->options, $index, 1);
 	}
-	
+
 }
+?>

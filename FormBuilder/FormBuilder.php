@@ -14,9 +14,9 @@ class FormBuilder{
 	 */
 	public function buildContactForm(){
 		$form = new Form("traitement.php");
-		$form->addInput("Motif", "motif")
-			->addInput("Mail", "mail", true, "mail")
-			->addTextarea("Message", "message")
+		$form->addInput("Sujet du message ", "sujet")
+			->addInput("Mail du destinataire", "mail", true, "mail")
+			->addTextarea("Message à envoyer", "message")
 			->addSelect("Destinataire", "destinataire", ["Administration", "Formateurs", "Réseau"])
 			->setSubmit("Valider");
 
@@ -28,6 +28,7 @@ class FormBuilder{
 		$form->addInput("Login", "login")
 			->addInput("Password", "password", "password")
 			->setSubmit("Go");
-		return $form;	
+		return $form;
 	}
 }
+?>

@@ -1,7 +1,7 @@
 <?php
 namespace FormBuilder;
 /**
- * All Elements needs to implement this interface 
+ * All Elements needs to implement this interface
  */
 interface IElement{
 
@@ -12,3 +12,4 @@ interface IElement{
 	public function draw();
 
 }
+?>
